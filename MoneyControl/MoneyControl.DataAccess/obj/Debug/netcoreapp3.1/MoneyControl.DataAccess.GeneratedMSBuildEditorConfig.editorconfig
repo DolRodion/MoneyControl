@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = MoneyControl.DataAccess
+build_property.ProjectDir = C:\MoneyControl\MoneyControl\MoneyControl.DataAccess\

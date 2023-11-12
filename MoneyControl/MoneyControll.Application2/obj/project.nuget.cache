@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "F6ixN+MTzSiFbLcis9DenKGBWiw/LqI4B+hj+jt2jSLKFpDKeL4ENN03Rx5mIFP15EV9WI1yjO6V7s/k+EqQPA==",
+  "success": true,
+  "projectFilePath": "C:\\MoneyControl\\MoneyControl\\MoneyControll.Application2\\MoneyControll.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dolro\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\dolro\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\dolro\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "C:\\Users\\dolro\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
