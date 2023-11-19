@@ -1,14 +1,14 @@
-<template>
-   <div id="nav">
-      <router-link to="/home">Home</router-link> |
-      <router-link to="/about">About</router-link>
-  </div>
-  <router-view />
-</template>
-
 <script setup lang="ts">
-
+import { THEME_KEY } from 'vue-echarts'
+const theme = useTheme()
+provide(
+  THEME_KEY,
+  computed(() => (theme.current.value.dark ? 'dark' : undefined)),
+)
 </script>
 
-<style scoped>
-</style>
+<template>
+  <v-app>
+    <router-view />
+  </v-app>
+</template>
