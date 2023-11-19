@@ -5,11 +5,11 @@ VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyControl.WebApi", "MoneyControl\MoneyControl.WebApi.csproj", "{5DD2907D-6709-499D-9CD4-BFFA50A35214}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyControll.Application", "MoneyControll.Application2\MoneyControll.Application.csproj", "{B4441E95-92E7-48C8-8B95-C4BD9FD5A1F8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyControll.Application", "MoneyControl.Application\MoneyControl.Application.csproj", "{B4441E95-92E7-48C8-8B95-C4BD9FD5A1F8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyControl.DataAccess", "MoneyControl.DataAccess\MoneyControl.DataAccess.csproj", "{F7732C06-AA7F-4BC1-8DC1-B3B5F4DBA52A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyControll.Domain", "MoneyControll.Domain\MoneyControll.Domain.csproj", "{0067D99C-8615-44CA-8C67-C499B9CCE983}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyControl.Domain", "MoneyControl.Domain\MoneyControl.Domain.csproj", "{0067D99C-8615-44CA-8C67-C499B9CCE983}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
