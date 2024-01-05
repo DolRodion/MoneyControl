@@ -14,7 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MoneyControl.Application\MoneyControl.Application.csproj" />
-    <ProjectReference Include="..\MoneyControll.Application2\MoneyControll.Application.csproj" />
+    <ProjectReference Include="..\MoneyControl.DataAccess\MoneyControl.Command.csproj" />
   </ItemGroup>
 
   <ProjectExtensions><VisualStudio><UserProperties properties_4launchsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
