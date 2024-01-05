@@ -10,7 +10,6 @@
 import { useTitle } from '@vueuse/core'
 const route = useRoute()
 const title = computed(() => {
-  debugger
   const title = route.meta?.title || route.matched[0].meta?.title || ''
   return title ? `${title} | Money Controll` : 'Money Controll'
 })

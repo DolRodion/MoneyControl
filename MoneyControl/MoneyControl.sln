@@ -3,13 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyControl.WebApi", "MoneyControl\MoneyControl.WebApi.csproj", "{5DD2907D-6709-499D-9CD4-BFFA50A35214}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyControl.WebApi", "MoneyControl\MoneyControl.WebApi.csproj", "{5DD2907D-6709-499D-9CD4-BFFA50A35214}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F7732C06-AA7F-4BC1-8DC1-B3B5F4DBA52A} = {F7732C06-AA7F-4BC1-8DC1-B3B5F4DBA52A}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyControll.Application", "MoneyControl.Application\MoneyControl.Application.csproj", "{B4441E95-92E7-48C8-8B95-C4BD9FD5A1F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyControl.Application", "MoneyControl.Application\MoneyControl.Application.csproj", "{B4441E95-92E7-48C8-8B95-C4BD9FD5A1F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyControl.DataAccess", "MoneyControl.DataAccess\MoneyControl.DataAccess.csproj", "{F7732C06-AA7F-4BC1-8DC1-B3B5F4DBA52A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyControl.Domain", "MoneyControl.Domain\MoneyControl.Domain.csproj", "{0067D99C-8615-44CA-8C67-C499B9CCE983}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyControl.Command", "MoneyControl.DataAccess\MoneyControl.Command.csproj", "{F7732C06-AA7F-4BC1-8DC1-B3B5F4DBA52A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +30,6 @@ Global
 		{F7732C06-AA7F-4BC1-8DC1-B3B5F4DBA52A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7732C06-AA7F-4BC1-8DC1-B3B5F4DBA52A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7732C06-AA7F-4BC1-8DC1-B3B5F4DBA52A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0067D99C-8615-44CA-8C67-C499B9CCE983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0067D99C-8615-44CA-8C67-C499B9CCE983}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0067D99C-8615-44CA-8C67-C499B9CCE983}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0067D99C-8615-44CA-8C67-C499B9CCE983}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
